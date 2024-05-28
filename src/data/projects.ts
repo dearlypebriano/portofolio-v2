@@ -20,8 +20,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/Screenshot 2024-05-28 at 13.44.19.png",
-      "/images/projects/Screenshot 2024-05-28 at 13.44.29.png",
+      "/images/projects/portofolioDark.png",
+      "/images/projects/portofolioLight.png",
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
