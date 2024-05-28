@@ -4,7 +4,7 @@ import { AnimatePresence } from "framer-motion";
 
 import FadeUp from "@/animation/fade-up";
 import FadeRight from "@/animation/fade-right";
-import heroProfileImg from "@/public/images/heroProfile.png";
+// import heroProfileImg from "@/public/images/heroProfile.png";
 
 export default function AboutHero() {
   return (
@@ -13,7 +13,9 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
             <Image
-              src={heroProfileImg}
+              src={
+                "https://portfoliodearlyfebrii.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdearly.ea19528a.jpg&w=3840&q=75"
+              }
               width={100}
               height={100}
               className="h-auto w-full px-0 xl:px-16"

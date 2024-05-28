@@ -5,6 +5,7 @@ import {
   SiMysql,
   SiMinio,
   SiDaisyui,
+  SiElectron,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -120,6 +121,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Angular",
         icon: AngularSvg,
+      },
+      {
+        name: "Electron",
+        icon: SiElectron,
       },
       {
         name: "Redux",

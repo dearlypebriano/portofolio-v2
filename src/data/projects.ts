@@ -17,18 +17,6 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
-    imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
-    ],
-    description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
-  },
-  {
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
@@ -39,5 +27,22 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/dearlypebriano/portofolio-v2",
     liveWebsiteHref: siteMetadata.siteUrl,
+  },
+  {
+    name: "Kasir Minimarket",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/dashboardSoftware.png",
+      "/images/projects/dataProduct.png",
+      "/images/projects/kasir.png",
+      "/images/projects/pembayaran.png",
+      "/images/projects/strokePenjualan.png",
+      "/images/projects/laporanPenjualan.png",
+      "/images/projects/dataPenjualan.png",
+      "/images/projects/grafikPPR.png",
+    ],
+    description:
+      "Kasir minimarket, software desktop yang dibangun menggunakan bahasa pemrograman Javascript dan library Electron.",
+    sourceCodeHref: "https://github.com/dearlypebriano/kasir-minimarket-v2",
   },
 ];
