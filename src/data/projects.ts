@@ -17,7 +17,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "Portofolio",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Javascript"],
+    tags: ["Nextjs", "Tailwindcss", "Javascript", "Typescript"],
     image: {
       LIGHT: "/images/projects/portofolioLight.png",
       DARK: "/images/projects/portofolioDark.png",
