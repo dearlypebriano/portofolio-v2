@@ -13,6 +13,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/grafikPPR.png",
     },
   },
+  {
+    index: 1,
+    title: "Portofolio",
+    href: "/projects",
+    tags: ["Nextjs", "Tailwindcss", "Javascript"],
+    image: {
+      LIGHT: "/images/projects/portofolioLight.png",
+      DARK: "/images/projects/portofolioDark.png",
+    },
+  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
