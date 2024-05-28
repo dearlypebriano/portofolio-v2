@@ -10,7 +10,7 @@ export function cursorTrail(props: CursorTrail) {
     "--accent",
   );
   const accentColor = `hsla(${
-    colorRaw ? colorRaw.split(" ").join(",") : "0, 0%, 0%"
+    colorRaw ? colorRaw.split(" ").join(",") : "0, 0%, 100%"
   }, 0.35)`;
   const { ref, color } = props;
   const ctx = ref.current?.getContext("2d")!;
