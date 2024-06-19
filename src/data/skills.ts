@@ -45,6 +45,7 @@ import FlutterSvg from "@/public/icons/flutter-svgrepo-com.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
+import FlaskSvg from "@/public/icons/flask.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
@@ -197,6 +198,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "MySQL",
         icon: SiMysql,
+      },
+      {
+        name: "Flask",
+        icon: FlaskSvg,
       },
     ],
   },
