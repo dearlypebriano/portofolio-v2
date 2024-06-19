@@ -179,6 +179,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiExpress,
       },
       {
+        name: "Flask",
+        icon: FlaskSvg,
+      },
+      {
         name: "Socket.io",
         icon: SiSocketdotio,
       },
@@ -198,10 +202,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "MySQL",
         icon: SiMysql,
-      },
-      {
-        name: "Flask",
-        icon: FlaskSvg,
       },
     ],
   },
