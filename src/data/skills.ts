@@ -7,6 +7,7 @@ import {
   SiDaisyui,
   SiElectron,
   SiFlyway,
+  SiElasticsearch,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -209,6 +210,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "FlywayDB",
         icon: SiFlyway,
+      },
+      {
+        name: "ElasticSearch",
+        icon: SiElasticsearch,
       },
       {
         name: "Postman",
