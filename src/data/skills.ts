@@ -8,6 +8,9 @@ import {
   SiElectron,
   SiFlyway,
   SiElasticsearch,
+  SiApachemaven,
+  SiNginx,
+  SiKibana,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -214,6 +217,18 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "ElasticSearch",
         icon: SiElasticsearch,
+      },
+      {
+        name: "Apache Maven",
+        icon: SiApachemaven,
+      },
+      {
+        name: "Nginx",
+        icon: SiNginx,
+      },
+      {
+        name: "Kibana",
+        icon: SiKibana,
       },
       {
         name: "Postman",
