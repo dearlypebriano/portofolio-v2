@@ -6,6 +6,7 @@ import {
   SiMinio,
   SiDaisyui,
   SiElectron,
+  SiFlyway,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -204,6 +205,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "MinIO",
         icon: SiMinio,
+      },
+      {
+        name: "FlywayDB",
+        icon: SiFlyway,
       },
       {
         name: "Postman",
