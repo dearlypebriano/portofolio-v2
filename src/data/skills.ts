@@ -7,10 +7,6 @@ import {
   SiDaisyui,
   SiElectron,
   SiFlyway,
-  SiElasticsearch,
-  SiApachemaven,
-  SiNginx,
-  SiKibana,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -20,7 +16,12 @@ import {
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
+import NginxSvg from "@/public/icons/nginx.svg";
+import PythonSvg from "@/public/icons/python.svg";
 import HtmlSvg from "@/public/icons/html.svg";
+import KibanaSvg from "@/public/icons/kibana.svg";
+import MavenSvg from "@/public/icons/maven.svg";
+import ElasticSvg from "@/public/icons/elasticsearch.svg";
 import JavaSvg from "../../public/icons/javac.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
@@ -65,6 +66,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Java",
         icon: JavaSvg,
+      },
+      {
+        name: "Python",
+        icon: PythonSvg,
       },
       {
         name: "Javascript",
@@ -216,19 +221,19 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
       {
         name: "ElasticSearch",
-        icon: SiElasticsearch,
+        icon: ElasticSvg,
       },
       {
         name: "Apache Maven",
-        icon: SiApachemaven,
+        icon: MavenSvg,
       },
       {
         name: "Nginx",
-        icon: SiNginx,
+        icon: NginxSvg,
       },
       {
         name: "Kibana",
-        icon: SiKibana,
+        icon: KibanaSvg,
       },
       {
         name: "Postman",
